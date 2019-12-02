@@ -1,0 +1,10 @@
+{
+  "name": "bespoke-nav-touch",
+  "main": "./dist/bespoke-nav-touch.js",
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "bespoke.js": ">=1.0.0"
+  }
+}
