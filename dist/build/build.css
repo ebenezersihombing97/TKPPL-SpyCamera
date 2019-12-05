@@ -432,10 +432,10 @@ li {
   line-height: 1.6;
 }
 p {
-  text-align: justify;
   margin-left: 1em;
   margin-right: 1em;
-}
+  text-align: justify;
+  }
 ul,
 ol {
   padding: 0 0 0 20px;
@@ -475,10 +475,12 @@ video {
   opacity: 0;
   background-color: #ff33ff;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
-  width: 640px;
-  margin-left: -320px;
+  right: 50%;
+  width: 740px;
+  margin-left: auto;
+  margin-right: -375px;
   height: 480px;
   margin-top: -240px;
   display: -ms-flexbox;
@@ -514,9 +516,4 @@ video {
 aside[role=note],
 aside[role=notes] {
   display: none;
-}
-.gambar{
-  border-radius: 50%;
-   width:200px; 
-   height:200px;
 }
