@@ -432,10 +432,12 @@ li {
   line-height: 1.6;
 }
 p {
-  margin-left: 1em;
-  margin-right: 1em;
-  text-align: justify;
-  }
+  margin: 0 0 1rem 0;
+}
+
+.spek p, li{
+  line-height:1;
+}
 ul,
 ol {
   padding: 0 0 0 20px;
@@ -473,14 +475,12 @@ video {
 .bespoke-slide {
   overflow: hidden;
   opacity: 0;
-  background-color: #ff33ff;
+  background-color: #fff;
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 50%;
-  right: 50%;
-  width: 740px;
-  margin-left: auto;
-  margin-right: -375px;
+  width: 640px;
+  margin-left: -320px;
   height: 480px;
   margin-top: -240px;
   display: -ms-flexbox;
