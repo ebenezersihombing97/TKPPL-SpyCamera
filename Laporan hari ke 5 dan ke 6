@@ -1,0 +1,56 @@
+SCRUM MASTER: FIRDAUS
+
+Laporan kegiatan hari ke 5 dan 6
+
+Hari ke 5, tanggal 4 Desember 2019
+
+William
+1. Menambah Section perkembangan camera
+2. Menambah Judul dan mengatur teks nama kelompok
+
+Andrian
+1. Menambahkan fungsi dan kegunaan Produk
+2. Mengedit Paragraf
+
+Erik Sembiring
+1. Edit data nama kelompok
+
+Ebenezer Sihombing
+1. Menambahkan keterangan jenis-jenis SpyCam
+
+Firdaus
+1. Merubah warna slide, menambah margin paragraf dan desain gambar di Deskripsi
+
+Kendala:
+1.	Error dalam melakukan Pull dan push
+2.	Perubahan warna tidak terlihat pada beberapa anggota lainnya
+3.	Terjadi penimpaan file, sehingga css yang telah di edit kembali ke awal
+
+Hari ke 6, tanggal 5 Desember 2019
+
+Firdaus
+1. Melakukan desain warna dan gambar kembali, karena ada kendala dalam pull yang dilakukan anggota kelompok
+2. Pengeditan posisi slide, margin, dan warna yang belum selesai
+3. Melakukan pengeditan css
+4. Menambahkan materi tentang kelebihan dan kekurangan
+
+Ebenezer
+1. Mengubah gambar dari jenis-jenis SpyCam
+2. Menghapus keterangan jenis SpyCam
+
+William
+1. Menambah class dan edit line height pada slide perbedaan dalam 10 tahun terakhir
+
+Andrian 
+1. Delete file tex 1-3 (menghapus file yang tidak berguna di html)
+
+Erik Sembiring
+1. Update index.html
+
+Kendala
+Masih sama dengan hari sebelumnya,hasil perubahan warna dan css belum bisa dipull oleh anggota kelompok lainnya.
+
+Yang akan dikerjakan kedepan
+1.	Mencoba melakukan desain mencoba agar bisa di pull anggota kelompok lainnya
+2.	Menambahkan dan melengkapi kekurangan dari pekerjaan sebelumnya
+3.	Mengerjakan pekerjaan yang tersisa pada backlog sesuai dengan bagian masing-masing
