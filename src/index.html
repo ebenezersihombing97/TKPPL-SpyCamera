@@ -15,25 +15,90 @@
 
     p{
       font-size: 15px;
-    } 
+    }
     .gambar1
     {
-    	border-radius:none;
-    	width: 200px;
-    	height: 200px;
+      border-radius:none;
+      width: 200px;
+      height: 200px;
     }
     .gambar2
     {
-    	border-radius: none;
-    	width: 100px;
-    	height: 100px;
+      border-radius: none;
+      width: 100px;
+      height: 100px;
     }
+
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+section {
+    position: relative;
+    z-index: 0;
+    width: 600px;
+    height: 400px;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 3rem;
+    text-align: justify;
+    text-underline-position: 10px;
+}
+section::before {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -70%;
+    width: 200%;
+    height: 200%;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(to right, aqua, #ec38bc, #7303c0, cyan), 
+                      linear-gradient(to right, cyan, #ec38bc, #7303c0, cyan), 
+                      linear-gradient(to right, cyan, #ec38bc, #7303c0, cyan), 
+                      linear-gradient(to right, cyan, #ec38bc, #7303c0, cyan);
+    animation: rotate 7s linear infinite;
+}
+section::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 10px;
+    top: 10px;
+    width: calc(95% - 0px);
+    height: calc(93% - 0px);
+    background: white;
+    border-radius: 5px;
+}
+.Flashdisk{
+  width: 295px;
+  float: left;
+  margin-right: 10px;
+}
+.pen{
+  width: 295px;
+  float: right;
+}
+
   </style>
 </head>
 <body>
 <article class="deck">
 
   <section>
+    <div class="border">
     <h1>HD Spy Camera Light </h1>
     <hr />
     <ul class="build build-items">
@@ -43,38 +108,36 @@
       <p>Ebenezer Sihombing (161112626)</p>
       <p>Firdaus (161111779)</p>
       <p>Erik Sembiring (151111518)</p>
-
     </ul>
+  </div>
   </section>
-
   <section>
     <img class= "gambar" src="images/SpyCamera.jpg">
     <h2>Spy Camera</h2>
     <p>HD Spy Camera Light Switch with GSM Remote Control adalah produk smarthome berbentuk saklar lampu yang sudah didukung oleh sebuah kamera pengintai yang dapat merekam otomatis ketika mendeteksi sebuah gerakan (motion detection).</p>
   </section>
   <section>
-  	<h3>Jenis-jenis Spy Cam</h3>
-  		<ul>
-  		<li>Flashdisk SPY CCTV</li>
+    <h3>Jenis-jenis Spy Cam</h3>
+    <div class="Flashdisk">
+      <li>Flashdisk SPY CCTV</li>
+      <img class= "gambar1" src="images/5de9168518e70.jpg">
+    </div>
+    <div class="pen">
+       <li>Pen SPY CCTV</li>
+      <img class= "gambar1" src="images/5de9169f98945.jpg">
+    </div> 
+    </section>
 
-  		<p>
-  		<img class= "gambar1" src="images/5de9168518e70.jpg">
-  		</p>
-  		<li>Pen SPY CCTV</li>
-  		<p><img class= "gambar1" src="images/5de9169f98945.jpg"></p>
-  		</ul>
-  	</section>
-
-  	<section>
-  		<ul>
-  		<li>Kacamata SPY CCTV</li>
-  		<p><img class= "gambar2" src="images/5de91662827c2.jpg"></p>
-  		<li>Tempat Minum SPY CCTV</li>
-  		<p><img class= "gambar2" src="images/5de916c80c025.jpg"></p>
-  		<li>Radio SPY CCTV</li>
-  		<p><img class= "gambar2" src="images/5de916b59cd18.jpg"></p>
-  		</ul>
-  	</section>
+    <section>
+      <ul>
+      <li>Kacamata SPY CCTV</li>
+      <p><img class= "gambar2" src="images/5de91662827c2.jpg"></p>
+      <li>Tempat Minum SPY CCTV</li>
+      <p><img class= "gambar2" src="images/5de916c80c025.jpg"></p>
+      <li>Radio SPY CCTV</li>
+      <p><img class= "gambar2" src="images/5de916b59cd18.jpg"></p>
+      </ul>
+    </section>
 
   <section>
     <h3>Lanjutan</h3>
@@ -93,26 +156,26 @@
     </P>
   </section>
 
-	<section>
+  <section>
      <h3>Fungsi Spy Camera</h3>
     <P>
-    	Berfungsi untuk melakukan perekaman audio dan video tanpa diketahui oleh orang lain. Hal ini dikarenakan bentuknya yang telah tersamarkan berbentuk Lampu/Stok Kontak. Camera ini juga memiliki media penyimpanan sebagai kamera tersembunyi dengan bentuk yang sangat mudah dan praktis dipakai khususnya untuk merekam momen atau event tertentu yang tak diizinkan ataupun kejadian tertentu, seperit interview, perkumpulan, hingga merekam kesepakatan dalam berbisnis. Spy camera ini menawarkan berbagai macam fitur.
+      Berfungsi untuk melakukan perekaman audio dan video tanpa diketahui oleh orang lain. Hal ini dikarenakan bentuknya yang telah tersamarkan berbentuk Lampu/Stok Kontak. Camera ini juga memiliki media penyimpanan sebagai kamera tersembunyi dengan bentuk yang sangat mudah dan praktis dipakai khususnya untuk merekam momen atau event tertentu yang tak diizinkan ataupun kejadian tertentu, seperit interview, perkumpulan, hingga merekam kesepakatan dalam berbisnis. Spy camera ini menawarkan berbagai macam fitur.
     </P>
   </section>
 
   <section>
   <h3>Kegunaan Spy Camera</h3>
   <ul>
-  	<li>
+    <li>
     <P>
       Kegunaan Spy camera ini diantaranya untuk mengambil objek seperti camera, merekam suara, merekam video, kapasitas video sampai 2 jam dengan kapasitas penyimpanan data sebesar Min 8GB dan Up to Max GB, fila dapat dipindahkan ke laptop atau computer dengan mudah, dan sangat berguna untuk Anda saat ingin merekam foto/audio/video untuk aktivitas tertentu yang tak ingin diketahui oleh orang lain.
     </P>
     </li>
-  		<li>
+      <li>
     <P>
       Untuk penggunaannya sebelum merekam, terlebih dulu masukkan kartu micro SD pada lubang Micro SD, kemudian tekan tombol power selama 3 detik dan lepas, kemudian lampu indikator pun akan menyala. Setelah itu, tekan tombol yang selama 2 detik sekali lagi sampai lampu berkedip 3 kali lalu padam, ketika padam inilah spy camera ini sedang melakukan perekaman video.
     </P>
-    	</li>
+      </li>
     </ul>
   </section>
 
@@ -186,7 +249,7 @@
     </section>
 
     <section>
-      <h3>Perbedaan spesifikasi dari Spy Camera 10 Tahun terakhir</h3>
+      <h3>Fitur-Fitur dari Perangkat SpyCam</h3>
     <ul>
         <div class="spek">
           <li>Wireless WIFI
@@ -207,6 +270,13 @@
           <li>Multiple Uses
             <p>Digunakan sebagai  Cop Cam, Nanny Cam, Body camera, Sports Action Cam, atau pada Drone</p>
             </li>
+            <li>Waterproof
+              <p>Tahan air, sehingga dapat digunakan diluar ruangan saat cuaca hujan</p>
+              </li>
+            </li>
+            <li>Audio Recording
+              <p>Merekan suara dengan hasil kualitas audio yang lebih baik</p>
+              </li>
           </ul>
           </div>
         </section>
@@ -241,7 +311,7 @@
       <li>Desain yang bagus sesuai dengan switch lamp untuk mengelabui orang</li>
       <li>Harga yang cukup murah dengan Spesifikasi yang diberikan</li>
       <li>Di desain dengan mendukung jaringan GSM Indonesia</li>
-      
+
     </ul>
   </section>
 
@@ -297,7 +367,7 @@
     <br>
     <ul class="build">
       <li><strong>Enjoy! :)</strong><a href="https://twitter.com/markdalgleish"> -@markdalgleish</a></li>
-    </ul>
+    </ul>   
   </section>
 </article>
 
