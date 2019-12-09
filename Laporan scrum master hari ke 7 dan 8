@@ -19,7 +19,8 @@ andrian c:
 erick :
 -Belum ada pembaharuan
  
- 
+ Problem :
+ -Error dalam melakukan Pull dan push
  
  
  hari ke 8:
@@ -40,4 +41,14 @@ erick :
  -edit teks
  
  erick s:
- Update index.html (menambah fitur-fitur)
+ -Update index.html (menambah fitur-fitur)
+ 
+ Problem :
+ -Perubahan warna tidak terlihat pada beberapa anggota lainnya
+ -Terjadi error sewaktu pull dan push
+ -Terjadi konflik sewaktu pull
+ 
+ yang akan  dikerjakan kedepannya:
+ -Memperbaharui tampilan slide
+ -Diskusi presentasi 
+ -Merapikan urutan slide
